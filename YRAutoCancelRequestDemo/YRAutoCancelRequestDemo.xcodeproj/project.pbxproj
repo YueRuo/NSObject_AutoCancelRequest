@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F77C1081FC51E8C00CD7A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77C1071FC51E8C00CD7A5E /* AppDelegate.m */; };
+		5F77C10B1FC51E8C00CD7A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77C10A1FC51E8C00CD7A5E /* ViewController.m */; };
+		5F77C10E1FC51E8C00CD7A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77C10C1FC51E8C00CD7A5E /* Main.storyboard */; };
+		5F77C1101FC51E8C00CD7A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F77C10F1FC51E8C00CD7A5E /* Assets.xcassets */; };
+		5F77C1131FC51E8C00CD7A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77C1111FC51E8C00CD7A5E /* LaunchScreen.storyboard */; };
+		5F77C1161FC51E8C00CD7A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77C1151FC51E8C00CD7A5E /* main.m */; };
+		5F77C11F1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77C11E1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.m */; };
+		5F77C1221FC5233900CD7A5E /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77C1211FC5233900CD7A5E /* TempViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F77C1031FC51E8C00CD7A5E /* YRAutoCancelRequestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRAutoCancelRequestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F77C1061FC51E8C00CD7A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F77C1071FC51E8C00CD7A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F77C1091FC51E8C00CD7A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F77C10A1FC51E8C00CD7A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F77C10D1FC51E8C00CD7A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F77C10F1FC51E8C00CD7A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F77C1121FC51E8C00CD7A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F77C1141FC51E8C00CD7A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F77C1151FC51E8C00CD7A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F77C11D1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoCancelRequest.h"; sourceTree = "<group>"; };
+		5F77C11E1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoCancelRequest.m"; sourceTree = "<group>"; };
+		5F77C1201FC5233900CD7A5E /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		5F77C1211FC5233900CD7A5E /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F77C1001FC51E8C00CD7A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F77C0FA1FC51E8C00CD7A5E = {
+			isa = PBXGroup;
+			children = (
+				5F77C11C1FC51EDE00CD7A5E /* YRAutoCancelRequest */,
+				5F77C1051FC51E8C00CD7A5E /* YRAutoCancelRequestDemo */,
+				5F77C1041FC51E8C00CD7A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F77C1041FC51E8C00CD7A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F77C1031FC51E8C00CD7A5E /* YRAutoCancelRequestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F77C1051FC51E8C00CD7A5E /* YRAutoCancelRequestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F77C1061FC51E8C00CD7A5E /* AppDelegate.h */,
+				5F77C1071FC51E8C00CD7A5E /* AppDelegate.m */,
+				5F77C1091FC51E8C00CD7A5E /* ViewController.h */,
+				5F77C10A1FC51E8C00CD7A5E /* ViewController.m */,
+				5F77C1201FC5233900CD7A5E /* TempViewController.h */,
+				5F77C1211FC5233900CD7A5E /* TempViewController.m */,
+				5F77C10C1FC51E8C00CD7A5E /* Main.storyboard */,
+				5F77C10F1FC51E8C00CD7A5E /* Assets.xcassets */,
+				5F77C1111FC51E8C00CD7A5E /* LaunchScreen.storyboard */,
+				5F77C1141FC51E8C00CD7A5E /* Info.plist */,
+				5F77C1151FC51E8C00CD7A5E /* main.m */,
+			);
+			path = YRAutoCancelRequestDemo;
+			sourceTree = "<group>";
+		};
+		5F77C11C1FC51EDE00CD7A5E /* YRAutoCancelRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5F77C11D1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.h */,
+				5F77C11E1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.m */,
+			);
+			path = YRAutoCancelRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F77C1021FC51E8C00CD7A5E /* YRAutoCancelRequestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F77C1191FC51E8C00CD7A5E /* Build configuration list for PBXNativeTarget "YRAutoCancelRequestDemo" */;
+			buildPhases = (
+				5F77C0FF1FC51E8C00CD7A5E /* Sources */,
+				5F77C1001FC51E8C00CD7A5E /* Frameworks */,
+				5F77C1011FC51E8C00CD7A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRAutoCancelRequestDemo;
+			productName = YRAutoCancelRequestDemo;
+			productReference = 5F77C1031FC51E8C00CD7A5E /* YRAutoCancelRequestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F77C0FB1FC51E8C00CD7A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YueRuo;
+				TargetAttributes = {
+					5F77C1021FC51E8C00CD7A5E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5F77C0FE1FC51E8C00CD7A5E /* Build configuration list for PBXProject "YRAutoCancelRequestDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F77C0FA1FC51E8C00CD7A5E;
+			productRefGroup = 5F77C1041FC51E8C00CD7A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F77C1021FC51E8C00CD7A5E /* YRAutoCancelRequestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F77C1011FC51E8C00CD7A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F77C1131FC51E8C00CD7A5E /* LaunchScreen.storyboard in Resources */,
+				5F77C1101FC51E8C00CD7A5E /* Assets.xcassets in Resources */,
+				5F77C10E1FC51E8C00CD7A5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F77C0FF1FC51E8C00CD7A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F77C10B1FC51E8C00CD7A5E /* ViewController.m in Sources */,
+				5F77C1221FC5233900CD7A5E /* TempViewController.m in Sources */,
+				5F77C1161FC51E8C00CD7A5E /* main.m in Sources */,
+				5F77C11F1FC51EDE00CD7A5E /* NSObject+AutoCancelRequest.m in Sources */,
+				5F77C1081FC51E8C00CD7A5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F77C10C1FC51E8C00CD7A5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F77C10D1FC51E8C00CD7A5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F77C1111FC51E8C00CD7A5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F77C1121FC51E8C00CD7A5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F77C1171FC51E8C00CD7A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F77C1181FC51E8C00CD7A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F77C11A1FC51E8C00CD7A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK86U2DBQ6;
+				INFOPLIST_FILE = YRAutoCancelRequestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YRAutoCancelRequestDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F77C11B1FC51E8C00CD7A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MK86U2DBQ6;
+				INFOPLIST_FILE = YRAutoCancelRequestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YRAutoCancelRequestDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F77C0FE1FC51E8C00CD7A5E /* Build configuration list for PBXProject "YRAutoCancelRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F77C1171FC51E8C00CD7A5E /* Debug */,
+				5F77C1181FC51E8C00CD7A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F77C1191FC51E8C00CD7A5E /* Build configuration list for PBXNativeTarget "YRAutoCancelRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F77C11A1FC51E8C00CD7A5E /* Debug */,
+				5F77C11B1FC51E8C00CD7A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F77C0FB1FC51E8C00CD7A5E /* Project object */;
+}
