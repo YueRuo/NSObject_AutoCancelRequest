@@ -45,7 +45,7 @@
     [_lock unlock];
 }
 - (void)dealloc{
-    for (YRWeakRequest *weakRequest in self.weakRequests) {
+    for (YRWeakRequest *weakRequest in _weakRequests) {
         [weakRequest.request cancel];
     }
 }

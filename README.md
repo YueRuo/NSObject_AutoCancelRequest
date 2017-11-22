@@ -87,7 +87,7 @@ ARC下不允许hook类的dealloc方法，所以hook是不行的。那还有别�
     [_lock unlock];
 }
 - (void)dealloc{
-    for (YRWeakRequest *weakRequest in self.weakRequests) {
+    for (YRWeakRequest *weakRequest in _weakRequests) {
         [weakRequest.request cancel];
     }
 }
